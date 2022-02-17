@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Spartan', sans-serif;
+}
+body{
+    background-color: #FBFFF1;
+    margin: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+
+/* Titres */
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+/* Barre navigation */
+nav{
+    background-color: #FFFCF2;
+    vertical-align: middle;
+    min-height: 95px;
+    display: flex;
+    flex-direction: row;
+
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+    border: 2px solid #27225A;
+    border-radius: 5px;
+    max-width: 200px;
+    height: auto;
+    min-height: 40px;
+    width: auto;
+    background-color: #27225A;
+    color: #126CA9;
+}
+nav img{
+    display: flex;
+    max-width: 15%;
+    padding-left: 10%;
+    margin: 10px 0;
+}
+nav li:hover{
+	background-color : #126CA9;
+}
+
+/* Liens */
+a{
+    text-decoration: none;
+    color: white;
+}
+address a{
+    color: #126CA9;
+}
+
+/* Liste non ordonnées */
+
+/* Sections */
+div.desc{
+    min-height: 50vh;
+    display: flex;
+}
+.img_desc{
+    max-height: 270px;
+    border-radius: 10px;
+    margin: 0% 10px 0 45vh;
+}
+.art_desc{
+    margin: 0% 20% 0 2%;
+}
+div article p.desc{
+    text-align: justify;
+    align-items: flex-start;
+}
+/* Index */
+
+
+/* A propos */
+address{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+footer{
+    height: auto;
+    background-color: #3C3744;
+    background: linear-gradient(grey, #3C3744);
+}
+footer div div{
+    display: flex;
+}
+footer div h3{
+    padding-top: 20px;
+    text-align: center;
+}
+/* Cursus scolaire */
+
+/* Tableau */
+table{
+    margin: 100px auto;
+    border-radius: 100px;
+    border-collapse: collapse;
+
+}
+table td{
+    border: 1px solid black;
+    background-color: #90D7FF;
+}
+/* Classes */
+.accueil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/Accueil_blured.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    min-height: 82vh;
+
+}
+.accueil p{
+    text-align: center;
+    color: white;
+    margin-top: 380px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.info{
+    display: flex;
+    background-color: #FBFFF1;
+}
+.info img{
+    max-height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+.sep{
+    display: block;
+    margin: 15px auto 20px auto;
+}
+.presentation{
+    font-style: italic;
+    margin-top: 4%;
+}
+.accueil_color1{
+    color: #ed2581;
+}
+.accueil_color2{
+    color: #f26248;
+}
+.accueil_color3{
+    color: #71cac7;
+}
+img.experience{
+    max-width: 40px;
+    vertical-align: middle;
+}
+.art_exp{
+    vertical-align: middle;
+    margin-left: 45vh;
+    display: inline-block;
+}
+.airtech{
+    border-radius: 35px;
+    margin-right: 120px;
+}
+.british{
+    border-radius: 35px;
+    margin-right: 145px;
+}
+.art_p_exp{
+    display: inline-block;
+    vertical-align: sub;
+    margin-top: 55px;
+}
+.airsoft{
+    max-width: 300px;
+    text-align: justify;
+}
+.jeux_video{
+    max-width: 300px;
+    margin-left: 10px;
+    text-align: justify;
+
+}
+.jeux_video video{
+    max-width: 100%;
+    border-radius: 30px;
+}
+.developpement{
+    max-width: 300px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.evony{
+    max-width: 100%;
+    margin: auto;
+}
+.evony:hover{
+    width: 100%;
+    text-align: center;
+}
+.pdf img{
+    padding-left: 50px;
+    max-width: 70px;
+}
+.pdf span{
+    position: relative; 
+    bottom: 30px;
+}
+
+.linkedin img{
+    max-width: 40px;
+    margin-left: 35px;
+}
+.linkedin span{
+    vertical-align: super;
+}
+.mail{
+    align-items: center;
+    padding-left: 85px;
+    color: white;
+}
+.mail img{
+    max-height: 30px;
+    margin-left: 35px;
+}
+.mail_souligne{
+    text-decoration: underline;
+}
+/* Grands titres */
+#index img{
+    max-width: 100%;
+}
+.cursus{
+    background: #126CA9;
+    background: linear-gradient(#126CA9, #90D7FF, #126CA9);
+    border-radius: 10px;
+    padding-bottom: 5vh;
+    min-height: max-content;
+}
+#cursus{
+    padding-top: 80px;
+}
+#exp article{
+    padding-top: 50px;
+    margin-left: 30vh;
+}
+
+.exp_perso div{
+    padding-top: 30px;
+    margin-left: 45vh;
+}
+.exp_perso ul{
+    margin-left: 50px;
+}
+
+#loisirs div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#loisirs div article{
+    min-width: 30vh;
+    min-height: 80vh;
+}
+#loisirs h3{
+    text-align: center;
+}
+.airsoft img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* Animations */
+.apparition{
+    animation-duration: 2s;
+    animation-name: slide-in;
+    animation-timing-function: ease-out;
+}
+.apparition2{
+    animation-duration: 5s;
+    animation-name: slide-in;
+    animation-timing-function: cubic-bezier(.15,.21,.06,1.01);
+}
+
+.bounce:hover{
+    animation-duration: 2s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+@keyframes slide-in{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+@keyframes bounce{
+    from{
+        width: 300px;
+    }
+    to{
+        width: 100%;
+    }
+}
+/* Detail */
+.courbe_haut{
+    background-image: url(./images/Courbe_haut.png), 
+                      url(./images/Courbe_bas.png);
+
+    background-repeat: no-repeat;
+    background-position: top,
+                         bottom;
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 110px;
+}
+@media screen and (max-width: 1050px) {
+    /* --------------------------Parties-------------------------- */
+    body{
+        max-width: 100%;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    header nav ul{
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: 0;
+
+    }
+    header nav ul li{
+        margin: 0;
+    }
+    header nav img{
+        display: none;
+    }
+    table{
+        margin: 5px;
+    }
+    footer div div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* --------------------------Classes-------------------------- */
+
+    /* Image accueil */
+    .accueil{
+        background-image: none;
+        min-height: 0%;
+
+    }
+    .accueil p{
+        display: none;
+    }
+    /* Information perso */
+    .info{
+        flex-wrap: wrap;
+        animation: none;
+        padding-top: 155px;
+    }
+    .sep{
+        max-width: 100%;
+    }
+    /* A propos */
+    div.desc{
+        flex-wrap: wrap;
+    }
+    .img_desc{
+        margin: auto ;
+        max-height: 110px;
+        border-radius: 18px;
+    }
+    .art_desc{
+        text-align: justify;
+        margin: 0 20px;
+    }
+    /* Experience professionnelle */
+    .art_exp{
+        margin: 0 10px;
+    }
+    img.experience{
+        display: none;
+    }
+    /* Experience personnelle */
+    .exp_perso div{
+        margin: 0 10px;
+    }
+    /* Footer */
+    .pdf img{
+        padding: 0;
+        max-width: 40px;
+    }
+    .pdf span{
+        position: relative;
+        bottom: 15px;
+    }
+    .linkedin{
+        padding-top: 10px;
+    }
+    /* Mail footer */
+    img.mail{
+        max-height: 30px;
+    }
+    .mail{
+        padding: 0;
+        padding-bottom: 25px;
+    }
+    .mail_souligne{
+        text-decoration: underline;
+    }
+    /* --------------------------Index-------------------------- */
+    /* A propos */
+    #about{
+        display: flex;
+        max-width: 100%;
+    }
+    #cursus{
+        padding-top: 0;
+    }
+}
+/* Couleurs 
+27225A
+126CA9
+FFEAD0
+90D7FF
+3C3744 */
